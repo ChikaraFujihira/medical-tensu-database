@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "y-drugs (医薬品マスター)",
+  "type": "object",
+  "properties": {
+    "drug_code": {
+      "type": "string",
+      "description": "薬価基準コード（9桁）。中央マスター y.txt の第1項目。"
+    },
+    "name": {
+      "type": "string",
+      "description": "医薬品名称。一般名＋規格名を含む。"
+    },
+    "kana": {
+      "type": "string",
+      "description": "名称のカナ表記。"
+    },
+    "unit": {
+      "type": "string",
+      "description": "1単位あたりの規格（mg、mL、錠など）。"
+    },
+    "price": {
+      "type": "number",
+      "description": "薬価（円）。R06価格。"
+    },
+    "form": {
+      "type": "string",
+      "description": "剤形区分。内用（錠・散）、注射、外用等。"
+    },
+    "manufacturer": {
+      "type": "string",
+      "description": "製造メーカー名。"
+    },
+    "valid_from": {
+      "type": "string",
+      "format": "date",
+      "description": "適用開始日（YYYY-MM-DD）。"
+    }
+  }
+}

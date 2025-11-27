@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "b-diseases (傷病名マスター)",
+  "type": "object",
+  "properties": {
+    "disease_code": {
+      "type": "string",
+      "description": "傷病名コード。7桁または8桁。中央マスター b.txt の主要キー。"
+    },
+    "name": {
+      "type": "string",
+      "description": "傷病名（正式名称）"
+    },
+    "kana": {
+      "type": "string",
+      "description": "傷病名のカナ表記"
+    },
+    "icd10": {
+      "type": "string",
+      "description": "対応するICD-10コード。付与されていないものは空欄。"
+    },
+    "modifier_flag": {
+      "type": "string",
+      "description": "修飾語要否フラグ。0=不要、1=必要、2=任意 等"
+    },
+    "sex_limit": {
+      "type": "string",
+      "description": "性別制限。1=男性のみ、2=女性のみ、0=制限なし"
+    },
+    "age_limit": {
+      "type": "string",
+      "description": "年齢制限（例：15U=15歳未満、15O=15歳以上 など）"
+    },
+    "infectious_flag": {
+      "type": "string",
+      "description": "感染症分類フラグ（新興再興感染症等の区分）"
+    },
+    "valid_from": {
+      "type": "string",
+      "format": "date",
+      "description": "適用開始日"
+    },
+    "valid_to": {
+      "type": "string",
+      "format": "date",
+      "description": "適用終了日（空欄=現行）"
+    },
+    "change_type": {
+      "type": "string",
+      "description": "変更区分（新規・変更・削除）"
+    },
+    "raw_record": {
+      "type": "string",
+      "description": "元TSVレコード完全保持（UTF-8）。例外解析や将来拡張に必要。"
+    }
+  },
+  "required": [
+    "disease_code",
+    "name",
+    "modifier_flag",
+    "valid_from",
+    "raw_record"
+  ]
+}

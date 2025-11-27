@@ -1,0 +1,88 @@
+{
+  "s-medical-acts": {
+    "code": 2,
+    "name": 10,
+    "kana": 7,
+    "point": 12,
+    "category_large": 90,
+    "category_middle": 91,
+    "category_small": 92,
+    "valid_from": 87,
+    "valid_to": 88,
+    "change_type": 0
+  },
+
+  "y-drugs": {
+    "drug_code": 2,
+    "name": 3,
+    "kana": 4,
+    "unit": 7,
+    "price": 8,
+    "form": 6,
+    "manufacturer": 9,
+    "med_type": 5,
+    "valid_from": 1,
+    "valid_to": 40,
+    "change_type": 0
+  },
+
+  "b-diseases": {
+    "disease_code": 5,
+    "name": 7,
+    "kana": 9,
+    "icd10": 12,
+    "modifier_flag": 18,
+    "sex_limit": 19,
+    "age_limit": 20,
+    "infectious_flag": 22,
+    "valid_from": 23,
+    "valid_to": 25,
+    "change_type": 0
+  },
+
+  "z-modifiers": {
+    "modifier_code": 4,
+    "name": 6,
+    "kana": 9,
+    "category": 11,
+    "valid_from": 14,
+    "valid_to": 16,
+    "change_type": 0
+  },
+
+  "c-comments": {
+    "comment_code": 4,
+    "name": 6,
+    "kana": 9,
+    "category": 11,
+    "valid_from": 14,
+    "valid_to": 16,
+    "change_type": 0
+  },
+
+  "k-byotou": {
+    "ward_code": 2,
+    "ward_name": 4,
+    "ward_kana": 6,
+    "valid_from": 86,
+    "valid_to": 87,
+    "change_type": 0
+  },
+
+  "t-specific-materials": {
+    "material_code": 2,
+    "name": 4,
+    "kana": 6,
+    "unit_code": 7,
+    "unit_name": 9,
+    "price": 11,
+    "oxygen_flag": 20,
+    "material_type": 21,
+    "limit_price": 22,
+    "limit_point": 23,
+    "valid_from": 27,
+    "valid_to": 29,
+    "change_type": 0,
+    "dpc_flag": 32
+  }
+}

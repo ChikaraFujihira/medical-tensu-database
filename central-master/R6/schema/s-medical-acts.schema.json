@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "s-medical-acts (医科診療行為マスター)",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "診療行為コード。7桁〜10桁。R6中央マスター s.txt の '診療行為コード'。"
+    },
+    "name": {
+      "type": "string",
+      "description": "診療行為名称。R6 s.txt の '診療行為名称'。"
+    },
+    "kana": {
+      "type": "string",
+      "description": "名称のカナ表記。R6別紙資料による。"
+    },
+    "category_large": {
+      "type": "string",
+      "description": "大分類コード（診療行為大分類）"
+    },
+    "category_middle": {
+      "type": "string",
+      "description": "中分類コード（診療行為中分類）"
+    },
+    "category_small": {
+      "type": "string",
+      "description": "小分類コード（診療行為小分類）"
+    },
+    "point": {
+      "type": "integer",
+      "description": "診療行為の点数"
+    },
+    "unit": {
+      "type": "string",
+      "description": "単位（回、日、月など）"
+    },
+    "target_flag": {
+      "type": "string",
+      "description": "対象区分。医科/歯科/調剤/訪問の適用可能区分"
+    },
+    "facility_flag": {
+      "type": "string",
+      "description": "施設基準や必須条件を示すフラグ（中央マスターで提供）"
+    },
+    "effective_from": {
+      "type": "string",
+      "format": "date",
+      "description": "適用開始日（YYYY-MM-DD）"
+    },
+    "effective_to": {
+      "type": "string",
+      "format": "date",
+      "description": "適用終了日（空欄の場合は現行）"
+    },
+    "change_type": {
+      "type": "string",
+      "description": "変更区分（新規・改定・廃止）"
+    },
+    "memo": {
+      "type": "string",
+      "description": "備考"
+    },
+    "raw_record": {
+      "type": "string",
+      "description": "元TSV行をUTF-8で保持（将来互換性のため）"
+    }
+  },
+  "required": [
+    "code",
+    "name",
+    "category_large",
+    "category_middle",
+    "category_small",
+    "point",
+    "effective_from",
+    "raw_record"
+  ]
+}

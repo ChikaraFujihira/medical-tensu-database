@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "c-comments (コメントマスター)",
+  "type": "object",
+  "properties": {
+    "comment_code": {
+      "type": "string",
+      "description": "コメントコード。中央マスター c.txt の主キー（7桁）。"
+    },
+    "name": {
+      "type": "string",
+      "description": "コメント名称。診療行為の補足情報や備考。"
+    },
+    "category": {
+      "type": "string",
+      "description": "コメント区分（10/20/30/31/40/42/50/51など）。入力制御のためのコメント種別。"
+    },
+    "kana": {
+      "type": "string",
+      "description": "コメント名称のカナ。"
+    },
+    "valid_from": {
+      "type": "string",
+      "format": "date",
+      "description": "適用開始日。"
+    },
+    "valid_to": {
+      "type": "string",
+      "format": "date",
+      "description": "適用終了日（空欄＝現行）。"
+    },
+    "change_type": {
+      "type": "string",
+      "description": "変更区分（新規・変更・廃止）。"
+    },
+    "raw_record": {
+      "type": "string",
+      "description": "元TSV行（Shift-JIS → UTF-8）をそのまま保持。"
+    }
+  },
+  "required": [
+    "comment_code",
+    "name",
+    "category",
+    "valid_from",
+    "raw_record"
+  ]
+}
