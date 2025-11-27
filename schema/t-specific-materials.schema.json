@@ -1,0 +1,13 @@
+{
+  "file": "t-specific-materials.csv",
+  "columns": [
+    "material_code", // ì¡íËäÌçﬁÉRÅ[Éh
+    "name",
+    "price",
+    "unit",
+    "category",
+    "valid_from",
+    "valid_to",
+    "raw_record"
+  ]
+}

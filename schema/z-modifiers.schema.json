@@ -1,0 +1,12 @@
+{
+  "file": "z-modifiers.csv",
+  "columns": [
+    "modifier_code",
+    "name",
+    "kana",
+    "category", // 種別（部位、程度、状態…）
+    "valid_from",
+    "valid_to",
+    "raw_record"
+  ]
+}

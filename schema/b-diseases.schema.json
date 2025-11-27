@@ -1,0 +1,13 @@
+{
+  "file": "b-diseases.csv",
+  "columns": [
+    "disease_code", // 傷病名コード
+    "name",
+    "kana",
+    "icd10", // ICD10対応コード
+    "modifier_flag", // 修飾語要否
+    "valid_from",
+    "valid_to",
+    "raw_record"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "file": "c-comments.csv",
+  "columns": [
+    "comment_code", // —á: 0000001
+    "name",
+    "description",
+    "valid_from",
+    "valid_to",
+    "raw_record"
+  ]
+}
