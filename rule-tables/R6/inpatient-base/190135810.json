@@ -1,0 +1,14 @@
+{
+    "code": "190135810",
+    "ward_type": "２０対１補助体制加算（医師事務作業補助体制加算２）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "3",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

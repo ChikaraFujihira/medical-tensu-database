@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "count-limit-rule",
+    "type": "object",
+    "properties": {
+        "code": {
+            "type": "string",
+            "description": "行為コード"
+        },
+        "count_limits": {
+            "type": "array",
+            "description": "算定回数制限情報",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "unit": {
+                        "type": "string",
+                        "enum": [ "day", "week", "month", "year" ]
+                    },
+                    "max": {
+                        "type": "integer",
+                        "description": "その期間で算定可能な最大回数"
+                    }
+                },
+                "required": [ "unit", "max" ]
+            }
+        }
+    },
+    "required": [ "code" ]
+}

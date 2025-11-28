@@ -1,0 +1,14 @@
+{
+    "code": "190831970",
+    "ward_type": "救急医療管理加算２（その他の重症な状態が一定割合以上）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "2",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "code": "190120710",
+    "ward_type": "ハイリスク分娩管理加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "38",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20180401",
+            "severity_level": "99999999"
+        }
+    }
+}

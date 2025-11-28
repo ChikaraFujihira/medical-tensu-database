@@ -1,0 +1,14 @@
+{
+    "code": "190217610",
+    "ward_type": "データ提出加算３（許可病床数２００床未満）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "7",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

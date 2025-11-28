@@ -1,0 +1,14 @@
+{
+    "code": "190218710",
+    "ward_type": "精神科急性期医師配置加算２（精神科急性期治療病棟入院料）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "12",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20200401",
+            "severity_level": "99999999"
+        }
+    }
+}

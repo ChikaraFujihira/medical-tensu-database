@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "supplemental-rule",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "診療行為コード"
+    },
+    "attributes": {
+      "type": "object",
+      "description": "補助手情報（診療行為の追加属性）",
+      "properties": {
+        "category": { "type": "string" },
+        "sub_category": { "type": "string" },
+        "drug_related": { "type": "boolean" },
+        "surgery_related": { "type": "boolean" },
+        "radiology_related": { "type": "boolean" },
+        "requires_comment": { "type": "boolean" },
+        "requires_modifier": { "type": "boolean" }
+      }
+    }
+  },
+  "required": [ "code", "attributes" ]
+}

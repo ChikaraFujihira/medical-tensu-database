@@ -1,0 +1,14 @@
+{
+    "code": "190147010",
+    "ward_type": "精神科リエゾンチーム加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "25",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20180401",
+            "severity_level": "99999999"
+        }
+    }
+}

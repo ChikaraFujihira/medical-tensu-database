@@ -1,0 +1,14 @@
+{
+    "code": "190127010",
+    "ward_type": "在宅患者緊急入院診療加算（連携医療機関（１以外））",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "2",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

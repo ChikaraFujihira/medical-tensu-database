@@ -1,0 +1,12 @@
+{
+    "code": "150420610",
+    "attributes": {
+        "category": "6",
+        "sub_category": "K740001",
+        "drug_related": false,
+        "surgery_related": false,
+        "radiology_related": false,
+        "requires_comment": false,
+        "requires_modifier": false
+    }
+}

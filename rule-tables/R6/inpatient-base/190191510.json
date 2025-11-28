@@ -1,0 +1,14 @@
+{
+    "code": "190191510",
+    "ward_type": "がん診療連携拠点病院加算（地域がん診療病院）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "29",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20180401",
+            "severity_level": "99999999"
+        }
+    }
+}

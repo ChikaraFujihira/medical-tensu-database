@@ -1,0 +1,14 @@
+{
+    "code": "190146410",
+    "ward_type": "診療所療養病床療養環境改善加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "10",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20120401",
+            "severity_level": "99999999"
+        }
+    }
+}

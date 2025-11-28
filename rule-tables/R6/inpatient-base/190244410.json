@@ -1,0 +1,14 @@
+{
+    "code": "190244410",
+    "ward_type": "術後疼痛管理チーム加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "40",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20220401",
+            "severity_level": "99999999"
+        }
+    }
+}

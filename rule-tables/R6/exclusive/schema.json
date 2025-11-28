@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "exclusive-rule",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "Šî€‚Æ‚È‚éf—Ãsˆ×ƒR[ƒh"
+    },
+    "exclusive": {
+      "type": "array",
+      "description": "•¹Z’è‹Ö~i”w”½j‚Ì‘ÎÛ",
+      "items": {
+        "type": "object",
+        "properties": {
+          "target": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": [ "same_day", "same_time", "same_week", "same_month" ],
+            "description": "”w”½í•Ê"
+          }
+        },
+        "required": [ "target", "type" ]
+      }
+    }
+  },
+  "required": [ "code" ]
+}

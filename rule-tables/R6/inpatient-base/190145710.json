@@ -1,0 +1,14 @@
+{
+    "code": "190145710",
+    "ward_type": "２５対１急性期看護補助体制加算（看護補助者５割以上）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "10",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20160401",
+            "severity_level": "99999999"
+        }
+    }
+}

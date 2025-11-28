@@ -1,0 +1,14 @@
+{
+    "code": "190833910",
+    "ward_type": "バイオ後続品使用体制加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "24",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

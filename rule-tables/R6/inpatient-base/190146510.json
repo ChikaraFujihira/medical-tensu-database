@@ -1,0 +1,14 @@
+{
+    "code": "190146510",
+    "ward_type": "無菌治療室管理加算２",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "22",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20180401",
+            "severity_level": "99999999"
+        }
+    }
+}

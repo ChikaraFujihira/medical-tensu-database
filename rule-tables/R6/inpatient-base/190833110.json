@@ -1,0 +1,14 @@
+{
+    "code": "190833110",
+    "ward_type": "特定感染症患者療養環境特別加算（個室）（疑似症）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "3",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20250501",
+            "severity_level": "99999999"
+        }
+    }
+}

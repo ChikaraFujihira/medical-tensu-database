@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "inclusive-rule",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "包含元となる診療行為コード"
+    },
+    "includes": {
+      "type": "array",
+      "description": "この行為に包含される行為コード一覧",
+      "items": { "type": "string" }
+    },
+    "included_in": {
+      "type": "string",
+      "description": "この行為が包含される上位行為コード（逆方向リンク）"
+    },
+    "note": {
+      "type": "string",
+      "description": "補足説明（任意）"
+    }
+  },
+  "required": [ "code" ]
+}

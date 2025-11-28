@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "inpatient-base-rule",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "入院基本料コード"
+    },
+    "ward_type": {
+      "type": "string",
+      "description": "病棟種別（急性期・回復期など）"
+    },
+    "conditions": {
+      "type": "object",
+      "description": "算定に必要な条件",
+      "properties": {
+        "required_staff": {
+          "type": "object",
+          "properties": {
+            "nurse_ratio": { "type": "string" },
+            "doctor_presence": { "type": "boolean" }
+          }
+        },
+        "patient_conditions": {
+          "type": "object",
+          "properties": {
+            "age": { "type": "string" },
+            "severity_level": { "type": "string" }
+          }
+        }
+      }
+    },
+    "exclusions": {
+      "type": "array",
+      "description": "排除条件（他の入院基本料と同時算定不可など）",
+      "items": { "type": "string" }
+    }
+  },
+  "required": [ "code" ]
+}

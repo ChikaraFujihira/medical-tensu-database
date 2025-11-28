@@ -1,0 +1,14 @@
+{
+    "code": "190832810",
+    "ward_type": "特定感染症入院医療管理加算（１以外）（疑似症）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "2",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

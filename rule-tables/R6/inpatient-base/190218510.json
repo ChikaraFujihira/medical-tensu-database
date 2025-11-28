@@ -1,0 +1,14 @@
+{
+    "code": "190218510",
+    "ward_type": "せん妄ハイリスク患者ケア加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "47",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20200401",
+            "severity_level": "99999999"
+        }
+    }
+}

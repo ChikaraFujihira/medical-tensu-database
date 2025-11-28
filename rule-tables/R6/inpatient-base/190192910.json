@@ -1,0 +1,14 @@
+{
+    "code": "190192910",
+    "ward_type": "入退院支援加算（特定地域）（一般病棟入院基本料等）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "44",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20180401",
+            "severity_level": "99999999"
+        }
+    }
+}

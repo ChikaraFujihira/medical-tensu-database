@@ -1,0 +1,14 @@
+{
+    "code": "190107170",
+    "ward_type": "精神病棟入院時医学管理加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "20",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20180401",
+            "severity_level": "99999999"
+        }
+    }
+}

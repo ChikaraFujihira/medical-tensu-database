@@ -1,0 +1,14 @@
+{
+    "code": "190206910",
+    "ward_type": "後発医薬品使用体制加算１",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "23",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20220401",
+            "severity_level": "99999999"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "code": "190241310",
+    "attributes": {
+        "category": "1",
+        "sub_category": "A100002",
+        "drug_related": false,
+        "surgery_related": false,
+        "radiology_related": false,
+        "requires_comment": false,
+        "requires_modifier": false
+    }
+}

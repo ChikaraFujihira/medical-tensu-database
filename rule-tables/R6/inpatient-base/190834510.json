@@ -1,0 +1,14 @@
+{
+    "code": "190834510",
+    "ward_type": "医療的ケア児（者）入院前支援加算（情報通信機器を用いた場合）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "13",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

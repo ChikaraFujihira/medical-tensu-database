@@ -1,0 +1,14 @@
+{
+    "code": "190136710",
+    "ward_type": "摂食障害入院医療管理加算（３１日以上６０日以内）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "11",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "code": "190834710",
+    "ward_type": "協力対象施設入所者入院加算（１以外の場合）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "17",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

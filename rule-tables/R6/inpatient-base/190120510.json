@@ -1,0 +1,14 @@
+{
+    "code": "190120510",
+    "ward_type": "医療安全対策加算１",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "7",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "code": "190832510",
+    "ward_type": "特定感染症入院医療管理加算（治療室）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "4",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

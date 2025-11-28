@@ -1,0 +1,14 @@
+{
+    "code": "190100670",
+    "ward_type": "乳幼児加算（診療所）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "3",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20100401",
+            "severity_level": "99999999"
+        }
+    }
+}

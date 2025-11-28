@@ -1,0 +1,14 @@
+{
+    "code": "190120610",
+    "ward_type": "褥瘡ハイリスク患者ケア加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "16",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20240601",
+            "severity_level": "99999999"
+        }
+    }
+}

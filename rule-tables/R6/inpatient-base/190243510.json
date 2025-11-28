@@ -1,0 +1,14 @@
+{
+    "code": "190243510",
+    "ward_type": "放射線治療病室管理加算（密封小線源による治療）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "23",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20220401",
+            "severity_level": "99999999"
+        }
+    }
+}

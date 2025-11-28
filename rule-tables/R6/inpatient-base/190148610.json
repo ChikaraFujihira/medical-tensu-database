@@ -1,0 +1,14 @@
+{
+    "code": "190148610",
+    "ward_type": "精神科救急搬送患者地域連携紹介加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "8",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20220401",
+            "severity_level": "99999999"
+        }
+    }
+}

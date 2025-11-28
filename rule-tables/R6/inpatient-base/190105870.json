@@ -1,0 +1,14 @@
+{
+    "code": "190105870",
+    "ward_type": "重症者等療養環境特別加算（個室）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "11",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20220401",
+            "severity_level": "99999999"
+        }
+    }
+}

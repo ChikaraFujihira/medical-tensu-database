@@ -1,0 +1,12 @@
+{
+    "code": "180064010",
+    "attributes": {
+        "category": "0",
+        "sub_category": "0",
+        "drug_related": false,
+        "surgery_related": false,
+        "radiology_related": false,
+        "requires_comment": false,
+        "requires_modifier": true
+    }
+}

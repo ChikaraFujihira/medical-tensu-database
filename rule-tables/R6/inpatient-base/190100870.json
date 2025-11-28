@@ -1,0 +1,14 @@
+{
+    "code": "190100870",
+    "ward_type": "幼児加算（病院）（特別入院基本料等）",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "4",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20180401",
+            "severity_level": "99999999"
+        }
+    }
+}

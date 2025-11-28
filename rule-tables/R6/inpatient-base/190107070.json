@@ -1,0 +1,14 @@
+{
+    "code": "190107070",
+    "ward_type": "精神科隔離室管理加算",
+    "conditions": {
+        "required_staff": {
+            "nurse_ratio": "19",
+            "doctor_presence": false
+        },
+        "patient_conditions": {
+            "age": "20180401",
+            "severity_level": "99999999"
+        }
+    }
+}
